@@ -10,10 +10,13 @@ h1{
 }
 section{
     display: flex;
+    margin-bottom: 210px;
 }
 .half-width{
-    width: 50%;
-    padding-left: 5%;
+    width:40%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
 }
 .half-width img{
     width:80%
@@ -34,4 +37,21 @@ div a:hover{
 .top-banner{
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
+}
+.dream-bg{
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position:right;
+}
+.dream-bg p{
+    width: 70%;
+}
+p{
+    text-align: justify;
+}
+.senior-developer,.junior-developer{
+    text-align: center;
+    background-color: rgb(247, 199, 199);
+    padding:25px;
+    box-shadow: 5px 10px #888888;
 }
